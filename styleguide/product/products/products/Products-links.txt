@@ -1,0 +1,36 @@
+		             -----Products-----
+
+A. Order Management ----> https://kibocommerce.com/order-management-system/
+1. Global Inventory Visibility ->https://kibocommerce.com/order-management-system/real-time-global-inventory-visibility/
+2. Distributed Order Routing ->https://kibocommerce.com/order-management-system/distributed-order-routing/
+3. Omnichannel Fulfillment ->https://kibocommerce.com/order-management-system/omnichannel-fulfillment/
+4. Customer & Order Servicing ->https://kibocommerce.com/order-management-system/customer-and-order-servicing/
+
+
+B. Headless B2C eCommerce ----> https://kibocommerce.com/ecommerce-software/
+1. Personalization ->https://kibocommerce.com/ecommerce-software/personalization/
+2. Core Commerce ->https://kibocommerce.com/ecommerce-software/core-commerce/
+3. Order Management ->https://kibocommerce.com/ecommerce-software/order-management/
+
+
+C. Headless B2B eCommerce ----> https://kibocommerce.com/b2b-ecommerce/
+Personalization ->https://kibocommerce.com/b2b-ecommerce/personalization-for-b2b/
+Cart & Checkout ->https://kibocommerce.com/b2b-ecommerce/cart-checkout/
+Pricing & Payments ->https://kibocommerce.com/b2b-ecommerce/pricing-payments/
+Account Management ->https://kibocommerce.com/b2b-ecommerce/account-management/
+Core Commerce ->https://kibocommerce.com/b2b-ecommerce/core-commerce/
+
+
+D. Personalization, Powered By Monetate ----> https://kibocommerce.com/personalization-software/
+1. Testing & Experimentation ->https://kibocommerce.com/personalization-software/testing-optimization/
+2. Segmentation & Targeting ->https://kibocommerce.com/personalization-software/segmentation-targeting/
+3. 1-to-1 Personalization ->https://kibocommerce.com/personalization-software/1-to-1-personalization/
+4. Product Recommendations ->https://kibocommerce.com/personalization-software/personalized-recommendations/
+5. Personalized Search ->https://kibocommerce.com/personalization-software/personalized-search/
+6. Audience Analytics & Insights ->https://kibocommerce.com/personalization-software/audience-insights/
+7. Social Proof ->https://kibocommerce.com/personalization-software/social-proof/
+8. Personalization For Developers ->https://kibocommerce.com/personalization-software/personalization-for-developers/
+
+
+E. Point of Sale ---->https://kibocommerce.com/point-of-sale/
+
