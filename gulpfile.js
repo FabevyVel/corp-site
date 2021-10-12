@@ -20,8 +20,7 @@ gulp.task('clean', function() {
 gulp.task('vendor:js', function() {
   return gulp.src([
     './node_modules/bootstrap/dist/js/*',
-    './node_modules/@popperjs/core/dist/umd/popper.*',
-    './node_modules/echarts/dist/*'
+    './node_modules/@popperjs/core/dist/umd/popper.*'
   ])
     .pipe(gulp.dest('./assets/js/vendor'));
 });
