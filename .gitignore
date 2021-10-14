@@ -104,3 +104,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+#build file
+assets/app.css
+assets/fonts/bootstrap-icons
+assets/js/vendor
