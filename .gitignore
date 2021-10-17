@@ -50,7 +50,7 @@ typings/
 # Optional npm cache directory
 .npm
 package-lock.json
-
+assets/scss/bootstrap
 
 # Optional eslint cache
 .eslintcache
