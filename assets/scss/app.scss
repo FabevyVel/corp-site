@@ -28,6 +28,7 @@ h1{
   line-height: 57px;
   font-weight: 600;
   text-transform: uppercase;
+<<<<<<< HEAD
 }
 
 h2{
@@ -64,3 +65,65 @@ h6{
   font-weight: 300;
 }
 
+=======
+}
+
+h2{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+h4{
+  font-size: 26px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #656868;
+}
+
+h5{
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h6{
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #656868;
+}
+
+.lead{
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.btn-primary{
+  background-color: #ffd105;
+  color: #2b2b2b;
+  border: solid 2px #ffd105;
+  text-transform: uppercase;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 50px;
+}
+
+.btn-primary:hover{
+ border: solid 2px #ffd105;
+ background: none; 
+}
+
+.btn-link{
+  color: #ffd105;
+  text-decoration: none;
+}
+.btn-link:hover{
+  color: #2b2b2b;
+  text-decoration: none;
+}
+>>>>>>> 8b464edc24599059b99fbf07fe002deae76e3da0

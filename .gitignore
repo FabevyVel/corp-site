@@ -109,5 +109,8 @@ dist
 assets/css/app.css
 assets/fonts/bootstrap-icons
 assets/js/vendor
+<<<<<<< HEAD
 assets/scss/bootstrap
+=======
+>>>>>>> 8b464edc24599059b99fbf07fe002deae76e3da0
 
