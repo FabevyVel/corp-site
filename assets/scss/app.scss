@@ -24,11 +24,10 @@ body{
 //Smooth Scroll
 
 h1{
-  font-size: 57px;
+  font-size: 38px;
   line-height: 57px;
   font-weight: 600;
   text-transform: uppercase;
-  color: red;
 }
 
 h2{
@@ -56,11 +55,55 @@ h6{
   line-height: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: red;
+  color: #656868;
+ 
 }
 
 .lead{
-  font-size: 23px;
+  font-size: 21px;
   line-height: 27px;
   font-weight: 300;
+  color: #535553;
 }
+
+/*section heading starts*/
+.sectionHeading{
+  padding: 50px 0px 50px 50px;
+  h1{
+    margin-bottom: 10px;
+  padding-bottom: 10px;
+  &:after{
+    content: '';
+    margin-top: 20px;
+    display: block;
+    width: 140px;
+    height: 4px;
+    background-color: yellow;
+  }
+  }
+  h6{
+    margin-bottom: 15px;
+  }
+  .lead{
+    margin-top: 19px;
+    margin-bottom: 10px;
+  } 
+}
+
+.sectionHeading.sectionheading-center h1:after{
+margin-left: auto;
+margin-right: auto;
+}
+
+strong{
+  font-weight: 600;
+}
+.lead.center{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+/* section heading ends */
