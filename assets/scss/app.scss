@@ -1,0 +1,233 @@
+// Custom bootstrap variable overrides
+@import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Your style
+@import "variables";
+@import "mixins";
+@import "general";
+@import "layout";
+@import "module";
+
+body {
+  font-family: Calibre, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #2b2b2b;
+}
+
+/* CUSTOM STYLES
+-------------------------------------------------- */
+//Smooth Scroll
+
+h1 {
+  font-size: 57px;
+  line-height: 57px;
+  font-weight: 600;
+  text-transform: uppercase;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+
+h2{
+=======
+}
+
+h2 {
+>>>>>>> a73e18ba54facccc558f383c064ed8bdd9d876fa
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+<<<<<<< HEAD
+h4{
+=======
+h4 {
+>>>>>>> a73e18ba54facccc558f383c064ed8bdd9d876fa
+  font-size: 26px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #656868;
+}
+
+<<<<<<< HEAD
+h5{
+=======
+h5 {
+>>>>>>> a73e18ba54facccc558f383c064ed8bdd9d876fa
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+<<<<<<< HEAD
+h6{
+=======
+h6 {
+>>>>>>> a73e18ba54facccc558f383c064ed8bdd9d876fa
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #656868;
+}
+
+<<<<<<< HEAD
+.lead{
+=======
+.lead {
+>>>>>>> a73e18ba54facccc558f383c064ed8bdd9d876fa
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 8b464edc24599059b99fbf07fe002deae76e3da0
+}
+
+h2{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+h4{
+  font-size: 26px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #656868;
+}
+
+h5{
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h6{
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #656868;
+}
+
+.lead{
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.btn-primary{
+=======
+.btn-primary {
+>>>>>>> a73e18ba54facccc558f383c064ed8bdd9d876fa
+  background-color: #ffd105;
+  color: #2b2b2b;
+  border: solid 2px #ffd105;
+  text-transform: uppercase;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 50px;
+}
+
+<<<<<<< HEAD
+.btn-primary:hover{
+ border: solid 2px #ffd105;
+ background: none; 
+}
+
+.btn-link{
+  color: #ffd105;
+  text-decoration: none;
+}
+.btn-link:hover{
+  color: #2b2b2b;
+  text-decoration: none;
+<<<<<<< HEAD
+}
+>>>>>>> 8b464edc24599059b99fbf07fe002deae76e3da0
+=======
+}
+>>>>>>> 8b464edc24599059b99fbf07fe002deae76e3da0
+=======
+.btn-primary:hover {
+  border: solid 2px #ffd105;
+  background: none;
+}
+
+.btn-link {
+  color: #ffd105;
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+/* Section Heading Starts*/
+.section-heading {
+  h6 {
+    margin-bottom: 15px;
+  }
+  h1 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    &:after {
+      content: "";
+      display: block;
+      width: 160px;
+      height: 4px;
+      background: #ffd105;
+      margin-top: 20px;
+    }
+  }
+  .lead {
+    margin-bottom: 10px;
+  }
+  &.section-heading-center {
+    h1:after {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+/* Section Heading Ends*/
+
+/* Section Card Type 1 Starts*/
+.card-type-1 {
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, .18);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(101, 105, 167, .4);
+  }
+  .card-body {
+    padding: 30px;
+    .card-title {
+      margin-bottom: 20px;
+      i{
+        color: #ffd105;
+        padding-right: 25px;
+        display: inline-block;
+      }
+    }
+    .card-text {
+      margin-bottom: 15px;
+    }
+    .card-link {
+    }
+  }
+}
+/* Section Card Type 1 Ends*/
+>>>>>>> a73e18ba54facccc558f383c064ed8bdd9d876fa
