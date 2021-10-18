@@ -109,3 +109,5 @@ dist
 assets/app.css
 assets/fonts/bootstrap-icons
 assets/js/vendor
+assets/css
+assets/scss/bootstrap
