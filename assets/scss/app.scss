@@ -11,7 +11,7 @@
 @import "layout";
 @import "module";
 
-body{
+body {
   font-family: Calibre, Helvetica, sans-serif;
   font-size: 19px;
   font-weight: 400;
@@ -23,34 +23,34 @@ body{
 -------------------------------------------------- */
 //Smooth Scroll
 
-h1{
+h1 {
   font-size: 57px;
   line-height: 57px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-h2{
+h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 600;
 }
 
-h4{
+h4 {
   font-size: 26px;
   line-height: 21px;
   font-weight: 600;
   color: #656868;
 }
 
-h5{
+h5 {
   font-size: 21px;
   line-height: 21px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-h6{
+h6 {
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
@@ -58,13 +58,13 @@ h6{
   color: #656868;
 }
 
-.lead{
+.lead {
   font-size: 23px;
   line-height: 27px;
   font-weight: 300;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #ffd105;
   color: #2b2b2b;
   border: solid 2px #ffd105;
@@ -75,30 +75,30 @@ h6{
   padding: 8px 50px;
 }
 
-.btn-primary:hover{
- border: solid 2px #ffd105;
- background: none; 
+.btn-primary:hover {
+  border: solid 2px #ffd105;
+  background: none;
 }
 
-.btn-link{
+.btn-link {
   color: #ffd105;
   text-decoration: none;
 }
-.btn-link:hover{
+.btn-link:hover {
   color: #2b2b2b;
   text-decoration: none;
 }
 
 /* Section Heading Starts*/
-.section-heading{
-  h6{
+.section-heading {
+  h6 {
     margin-bottom: 15px;
   }
-  h1{
+  h1 {
     padding-bottom: 10px;
     margin-bottom: 10px;
-    &:after{
-      content: '';
+    &:after {
+      content: "";
       display: block;
       width: 160px;
       height: 4px;
@@ -106,14 +106,40 @@ h6{
       margin-top: 20px;
     }
   }
-  .lead{
+  .lead {
     margin-bottom: 10px;
   }
-  &.section-heading-center{
-    h1:after{
+  &.section-heading-center {
+    h1:after {
       margin-left: auto;
       margin-right: auto;
     }
   }
 }
 /* Section Heading Ends*/
+
+/* Section Card Type 1 Starts*/
+.card-type-1 {
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, .18);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(101, 105, 167, .4);
+  }
+  .card-body {
+    padding: 30px;
+    .card-title {
+      margin-bottom: 20px;
+      i{
+        color: #ffd105;
+        padding-right: 25px;
+        display: inline-block;
+      }
+    }
+    .card-text {
+      margin-bottom: 15px;
+    }
+    .card-link {
+    }
+  }
+}
+/* Section Card Type 1 Ends*/
