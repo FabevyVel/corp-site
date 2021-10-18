@@ -64,26 +64,74 @@ h6{
   font-weight: 300;
 }
 
-.heading-section h1{
-  font-family: Calibre, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 57px;
-  line-height: 57px;
-  color:#2b2b2b;
-  margin-bottom: 100px;
+/*Styleguide.html*/
+
+.heading-section{
+  h1{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    &:after{
+      content: '';
+      display: block;
+      width: 160px;
+      height: 4px;
+      background: #ffd105;
+      margin-top: 20px;
+    }
+  }
+  h6{
+    margin-bottom: 15px;
+  }
+  .lead{
+    font-family: Calibre, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 27px;
+    color: #2b2b2b;
+  }
+  
+  &.text-center.type-2{
+    h1:after{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  } 
+  
 }
-.heading-section h6{
-  font-family: Calibre, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 14px;
-  color: #989898;
-  margin-bottom: 100px;
+
+/*card-section*/
+.card-type-1{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167,  .18);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(101, 105, 167, .4);
+  }
+  .card-body{
+    padding: 30px;
+    .card-title{
+      margin-bottom: 20px;
+      i{
+        color: #ffd105;
+        display: inline-block;
+        padding-right: 40px;
+      }
+    }
+    .card-text{
+      margin-bottom: 15px;
+    }
 }
-.heading-section .lead{
-  font-family: Calibre, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 23px;
-  line-height: 27px;
-  color: #2b2b2b;
-}
+    
+    .card-link{
+      color: #ffd105;
+    }  
+  }
+
+
+
+
+
+
+
+
+
