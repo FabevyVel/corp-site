@@ -11,7 +11,7 @@
 @import "layout";
 @import "module";
 
-body{
+body {
   font-family: Calibre, Helvetica, sans-serif;
   font-size: 19px;
   font-weight: 400;
@@ -23,34 +23,34 @@ body{
 -------------------------------------------------- */
 //Smooth Scroll
 
-h1{
+h1 {
   font-size: 57px;
   line-height: 57px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-h2{
+h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 600;
 }
 
-h4{
+h4 {
   font-size: 26px;
   line-height: 21px;
   font-weight: 600;
   color: #656868;
 }
 
-h5{
+h5 {
   font-size: 21px;
   line-height: 21px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-h6{
+h6 {
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
@@ -58,35 +58,57 @@ h6{
   color: #656868;
 }
 
-.lead{
+.lead {
   font-size: 23px;
   line-height: 27px;
   font-weight: 300;
 }
 /*section heading starts*/
-.section-heading{
-  
-}
-.section-heading h1{
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-.section-heading h6{
-  margin-bottom: 15px;
-}
-.section-heading h1:after{
-  content: "";
-  background-color: #ffd105;
-  display: block;
-  width: 160px;
-  height: 4px;
-  margin-top: 20px;
-}
-.section-heading-center h1:after{
-  margin-left:auto;
-  margin-right:auto;
-}
-.section-heading .lead{
-  margin-bottom:10px;
+.section-heading {
+  h1 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    &:after {
+      content: "";
+      background-color: #ffd105;
+      display: block;
+      width: 160px;
+      height: 4px;
+      margin-top: 20px;
+    }
+  }
+  h6 {
+    margin-bottom: 15px;
+  }
+  .lead {
+    margin-bottom: 10px;
+  }
+  &.section-heading-center {
+    h1:after {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 /*section heading ends*/
+
+/*card card type-1 starts*/
+.card-type-1 {
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101,105,167,0.18);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(101,105,167,0.4);
+  }
+  .card-body {
+    .card-title {
+      color: green;
+    }
+    .card-text {
+      color: green;
+    }
+    .card-link {
+      color: green;
+    }
+  }
+}
+/*card card type-1 ends*/
