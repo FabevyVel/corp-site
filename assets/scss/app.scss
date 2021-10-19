@@ -40,7 +40,6 @@ h4 {
   font-size: 26px;
   line-height: 21px;
   font-weight: 600;
-  color: #656868;
 }
 
 h5 {
@@ -55,13 +54,15 @@ h6 {
   line-height: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #656868;
 }
 
 .lead {
   font-size: 23px;
   line-height: 27px;
   font-weight: 300;
+}
+.color-1{
+  color:#656868;
 }
 /*section heading starts*/
 .section-heading {
@@ -101,7 +102,7 @@ h6 {
   }
   .card-body {
     .card-title {
-      color: green;
+      color:red;
     }
     .card-text {
       color: green;
