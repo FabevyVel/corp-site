@@ -11,7 +11,7 @@
 @import "layout";
 @import "module";
 
-body{
+body {
   font-family: Calibre, Helvetica, sans-serif;
   font-size: 19px;
   font-weight: 400;
@@ -23,34 +23,33 @@ body{
 -------------------------------------------------- */
 //Smooth Scroll
 
-h1{
+h1 {
   font-size: 57px;
   line-height: 57px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-h2{
+h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 600;
 }
 
-h4{
+h4 {
   font-size: 26px;
   line-height: 21px;
   font-weight: 600;
-  color: #656868;
 }
 
-h5{
+h5 {
   font-size: 21px;
   line-height: 21px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-h6{
+h6 {
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
@@ -58,20 +57,50 @@ h6{
   color: #656868;
 }
 
-.lead{
+.lead {
   font-size: 23px;
   line-height: 27px;
   font-weight: 300;
 }
 
-/*Styleguide.html*/
+.heading-underline{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  &:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #ffd105;
+    margin-top: 20px;
+  }
+  &.text-center{
+    &:after{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+.card-subtitle{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.color-1{
+  color: #fc9424;
+}
+.lowercase{
+  text-transform: lowercase;
+}
 
-.heading-section{
-  h1{
+
+/*heading-section*/
+
+.heading-section {
+  h1 {
     margin-bottom: 10px;
     padding-bottom: 10px;
-    &:after{
-      content: '';
+    &:after {
+      content: "";
       display: block;
       width: 160px;
       height: 4px;
@@ -79,72 +108,64 @@ h6{
       margin-top: 20px;
     }
   }
-  h6{
+  h6 {
     margin-bottom: 15px;
   }
-  .lead{
+  .lead {
     font-family: Calibre, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 23px;
     line-height: 27px;
     color: #2b2b2b;
   }
-  
-  &.text-center.type-2{
-    h1:after{
+
+  &.text-center.type-2 {
+    h1:after {
       margin-left: auto;
       margin-right: auto;
     }
-    
-  } 
-  
+  }
 }
 
 /*card-section*/
-.card-type-1{
+
+.card-type-1 {
   border: none;
-  box-shadow: 0 15px 30px 0 rgba(101, 105, 167,  .18);
-  &:hover{
-    box-shadow: 0 0 30px 0 rgba(101, 105, 167, .4);
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
+  &:hover {
+    box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
   }
-  .card-body{
+  .card-body {
     padding: 30px;
-    .card-title{
+    .card-title {
       margin-bottom: 20px;
-      i{
+      i {
         color: #ffd105;
         display: inline-block;
         padding-right: 40px;
       }
     }
-    .card-text{
+    .card-text {
       margin-bottom: 15px;
     }
-}
-    
-    .card-link{
-      color: #ffd105;
-    }  
   }
 
+  .card-link {
+    color: #ffd105;
+  }
+}
 
 /*tabs-section*/
 
-.tabs-1{
-  .nav-item{
-    .nav-link{
+.tabs-1 {
+  .nav-item {
+    .nav-link {
       text-transform: uppercase;
       color: #7862a5;
-      &.active{
+      &.active {
         border: none;
         border-bottom: solid 3px #7862a5;
       }
     }
   }
 }
-
-
-
-
-
-
