@@ -128,7 +128,20 @@ h6{
   }
 
 
+/*tabs-section*/
 
+.tabs-1{
+  .nav-item{
+    .nav-link{
+      text-transform: uppercase;
+      color: #7862a5;
+      &.active{
+        border: none;
+        border-bottom: solid 3px #7862a5;
+      }
+    }
+  }
+}
 
 
 
