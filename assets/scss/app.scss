@@ -63,3 +63,87 @@ h6{
   line-height: 27px;
   font-weight: 300;
 }
+
+/* Section Heading Starts  */
+.section-heading{
+  .p{
+    font-size: 15px;
+  }
+  h6{
+     margin-bottom: 4px;
+  }
+  h1{
+    font-size: 24px;
+    padding-bottom: 11px; 
+    &:after{
+      content:'';
+      display: block;
+      width: 160px;
+      height: 4px;
+      background: #ffd105;
+      margin-top: 9px
+    }
+  }
+}
+.section-heading.section-heading-center h1:after {
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-heading .lead{
+margin-bottom: 10px;
+}
+/* Section Heading Ends  */
+
+/* section cart type 1 starts*/
+.card-type-1{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(101,105,167, .4);
+  }
+   .card-body{
+     padding:30px;
+      .card-tittle{
+        margin-bottom: 20px;
+        font-size: 18px;
+        i{
+          padding-bottom: 15px; 
+        }
+      }
+     .card-text{
+       margin-bottom: 15px;
+       font-size: 15px;
+      }
+     .card-link{
+       color:#ffd105;
+      }
+   }
+}
+/* section card typs 1 Ends */
+
+/* section cart type 2 starts*/
+.card-type-2{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(101,105,167, .4);
+  }
+   .card-body{
+     padding:30px;
+      .card-tittle{
+        margin-bottom: 20px;
+        font-size: 18px;
+        i{
+          padding-bottom: 15px; 
+        }
+      }
+     .card-text{
+       margin-bottom: 15px;
+       font-size: 15px;
+      }
+     .card-link{
+       color:#ffd105;
+      }
+    }
+  }
+  /* section card typs 2 Ends */
