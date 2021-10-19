@@ -107,3 +107,32 @@ strong{
     margin-right: 140px;
   }
 /* section heading ends */
+/* card starts */
+.card{
+  .card-body{
+    h5{
+     color: rosybrown;
+    }
+    p{
+      font-size: 19px;
+      line-height: 27px;
+      font-weight: 400;
+      text-align: left;
+    }
+    link{
+      a{
+        color: yellow;
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 600;
+        &:hover{
+          color: black;
+        }
+       }
+       
+    }
+    
+  }
+}
+
+/* card ends */
