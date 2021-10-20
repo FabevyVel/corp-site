@@ -63,3 +63,70 @@ h6{
   line-height: 27px;
   font-weight: 300;
 }
+.btn-primary{
+  background-color: #ffd105;
+  color: #2b2b2b;
+  border: solid 2px #ffd105;
+  text-transform: uppercase;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 50px;
+}
+.btn-primary:hover{
+  border: solid 2px #ffd105;
+  background: none;
+}
+.btn-link{
+  color: #ffd105;
+  text-decoration: none;
+}
+.btn-link:hover{
+  color: #2b2b2b;
+  text-decoration: none;
+}
+.section-heading{
+
+}
+.section-heading h1{
+  padding-bottom: 10px;
+  margin-bottom: 10px;  
+}
+.section-heading h6{
+  margin: 15px;
+}
+.section-heading h1:after{
+  content: '';
+  display: block;
+  width: 160px;
+  height: 4px;
+  background: #ffd105;
+  margin-top: 20px;
+}
+.section-heading.section-heading-center h1:after{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading .lead{
+  margin-bottom: 10px;  
+}
+.card-type-1{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167 , .18);
+&:hover{
+  box-shadow: 0 0 30px 0 rgba(101, 105, 167 , .4);
+
+}
+  .card-body{
+    .card-title{
+
+    }
+    .card-text{
+
+    }
+    .card-lik{
+
+    }
+  }
+}
