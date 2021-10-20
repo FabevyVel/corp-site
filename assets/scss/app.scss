@@ -119,14 +119,29 @@ h6{
 
 }
   .card-body{
+    padding: 30px;
     .card-title{
-
+      margin-bottom: 20px;
+      i{
+        color: #ffd105;
+        padding-right: 20px;
+        display: inline-block;
+      }
     }
     .card-text{
-
+      margin-bottom: 15px;
     }
-    .card-lik{
 
+  }
+}
+.nav-tab-1{
+  .nav-item{
+    .nav-link{
+      text-transform: uppercase;
+      &.active{
+        border: none;
+        border-bottom: solid 3px #7862a5;
+      }
     }
   }
 }
