@@ -106,20 +106,28 @@ strong{
     margin-left: 140px;
     margin-right: 140px;
   }
-/* section heading ends */
+
 /* card starts */
-.card{
+.card-type-1{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, .58);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(40, 47, 151,0.93);
+  }
+  
   .card-body{
     h5{
-     color: rosybrown;
+     
     }
     p{
       font-size: 19px;
       line-height: 27px;
       font-weight: 400;
       text-align: left;
+      color: #656868;
     }
     link{
+      color: yellow;
       a{
         color: yellow;
         font-size: 16px;
@@ -135,4 +143,52 @@ strong{
   }
 }
 
+
 /* card ends */
+
+/* tabs starts*/
+.nav-tabs-1{
+font-size: 18px;
+line-height: 23px;
+font-weight: 600;
+color: #535553;
+
+.nav-item{
+ 
+  .nav-link{
+    color: #535553;
+    margin-right: 50px;
+    text-transform: uppercase;
+   &.active{
+    border: none;
+    border-bottom: solid 2px #7862a5;
+   } 
+  }
+}
+}
+
+/* tabs ends*/
+
+/* card-type-2 starts*/
+.card{
+padding: 16px 16px 10px 16px;
+  .card-img-top{
+    
+   &.card-img-top-1{
+  
+   }
+  }
+  .card-subtitle{
+    
+  &.blog{
+    margin: 16px;
+  }
+  }
+  ul{
+    padding-top: 7px;
+  }
+}
+
+
+
+/* card-type-2 end*/
