@@ -120,3 +120,30 @@ h6 {
   margin-bottom: 10px;
 }
 /* Section Heading Ends*/
+
+/* Section card type 1 starts*/
+.card-type-1{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, .18);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(101, 105, 167, .4);
+  }
+  .card-body{
+    padding: 30px;
+   .card-title{
+     margin-bottom: 20px;
+     i{
+       color: #ffd105;
+       padding-right: 25px;
+       display: inline-block;
+     }
+  }
+   .card-text{
+     margin-bottom: 15px;
+  }
+   .card-link{
+  }
+  }
+}
+
+/* Section card type 1 ends*/
