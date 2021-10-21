@@ -47,7 +47,6 @@ h5{
   font-size: 21px;
   line-height: 21px;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 h6{
@@ -117,3 +116,88 @@ h6{
   }
 }
 /* Section Heading Ends*/
+/* Section Card Tab-1 Starts*/
+.card-type-1{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(37, 39, 58, .18);
+  &:hover{
+  box-shadow: 0 15px 30px 0 rgba(37, 39, 58, .4);
+  }
+  .card-body{
+    color: #9c9266;
+    .card-title{
+      margin-bottom: 20px;
+      font-size: 21px;
+      line-height: 21px;
+      font-weight: 500;
+      color: #2b2b2b;
+      i{
+        color: #ffd105;
+        padding-right: 25px;
+        display: inline-block;
+      }
+    }
+    .card-text{
+      font-size: 19px;
+      line-height: 27px;
+      font-weight: 400;
+      color: #656868;
+    }
+    .card-link{
+      font-size: 16px;
+      line-height: 23px;
+      font-weight: 600;
+      color: #ffd105;
+      margin-top: 15px;
+      text-decoration: none;
+      &:hover{
+        color: #2b2b2b;
+      }
+    }
+  }
+}
+/* Section Card Tab-1 Ends*/
+
+/* Section Card Tab-2 Starts*/
+
+.card-type-2{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(37, 39, 58, .18);
+  &:hover{
+  box-shadow: 0 15px 30px 0 rgba(37, 39, 58, .4);
+  }
+  .card-body{
+    color: #9c9266;
+    .card-title{
+      margin-bottom: 10px;
+      font-size: 21px;
+      line-height: 26px;
+      color: #656868;
+      text-transform: lowercase;
+    }
+    .card-text{
+      font-size: 19px;
+      line-height: 27px;
+      font-weight: 400;
+      color: #656868;
+    }
+  }
+}
+/* Section Card Tab-2 Ends*/
+
+/* Section Tab Starts*/
+.nav-tab{
+  .nav-item{
+    .nav-link{
+      font-size: 16px;
+      line-height: 23px;
+      font-weight: 600;
+      text-transform: uppercase;
+      &:active{
+        border: none;
+        border-bottom: solid 3px #7862a5;
+      }
+    }
+  }
+}
+/* Section Tab Ends*/
