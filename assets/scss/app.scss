@@ -93,28 +93,71 @@ h6 {
 }
 
 /*Section Heading ends*/
-/*Section card Starts*/
+/*Section card-1 Starts*/
 .card-type-1 {
- border: none;
+  border: none;
   box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 18);
-  &:hover{
-    box-shadow: 0 15px 30px 0 rgba(101, 105, 167,4);
+  &:hover {
+    box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 4);
   }
-  
- 
 
   .card-body {
-    color: red;
     .card-title {
-      color: red;
+      margin-bottom: 15px;
+      i {
+        color: #ffd105;
+        display: inline-block;
+        padding-right:20px;
+      }
     }
     .card-text {
-      color: red;
     }
     .card-link {
-      color: red;
+      color: #ffd105;
     }
   }
 }
 
-/*Section card ends*/
+/*Section card-1 ends*/
+/*Section card-2 Starts*/
+.card-type-1 {
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 18);
+  &:hover {
+    box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 4);
+  }
+
+  .card-body {
+    .card-title {
+      margin-bottom: 15px;
+    
+    }
+    .card-text {
+      margin-bottom: 15px;
+
+    }
+    
+  }
+}
+
+/*Section card-2 ends*/
+/*Section nav-tab-1 starts*/
+ .nav-tabs-1{
+   
+   .nav-item{
+     
+     .nav-link {
+      
+       text-transform: uppercase;
+      &.active{
+        
+        border: none;
+        border-bottom: solid 3px #7862a5;
+        
+      }
+     }
+   }
+
+
+}
+/*Section nav-tab-1 starts*/
