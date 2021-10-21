@@ -56,7 +56,7 @@ h6 {
   line-height: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color:#989898
+  color: #989898;
 }
 
 .lead {
@@ -67,18 +67,54 @@ h6 {
 
 /*Section Heading starts*/
 .section-heading {
+  h6 {
+    margin-bottom: 15px;
+  }
+  h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    &:after {
+      content: "";
+      display: block;
+      width: 160px;
+      height: 4px;
+      background: #ffd105;
+      margin-top: 20px;
+    }
+  }
 }
-.section-heading h6 {
-  margin-bottom: 15px;
-}
-.section-heading h1 {
-  padding: 10px;
-  margin-bottom: 10px;
-}
-.section-heading h1 span .underline{
-  color: #2b2b2b;
-}
+
 .section-heading .lead {
   margin-bottom: 10px;
 }
+.section-heading.section-heading-center h1:after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*Section Heading ends*/
+/*Section card Starts*/
+.card-type-1 {
+ border: none;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 18);
+  &:hover{
+    box-shadow: 0 15px 30px 0 rgba(101, 105, 167,4);
+  }
+  
+ 
+
+  .card-body {
+    color: red;
+    .card-title {
+      color: red;
+    }
+    .card-text {
+      color: red;
+    }
+    .card-link {
+      color: red;
+    }
+  }
+}
+
+/*Section card ends*/
