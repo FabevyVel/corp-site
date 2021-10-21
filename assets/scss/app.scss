@@ -142,19 +142,19 @@ h6 {
 }
 
 /*section nav style*/
-.nav-tabs-1 {
-  .nav-item {
-    .nav-link {
+.nav-tabs-1{
+  .nav-item{
+    .nav-link{
       color: #ffd105;
       text-transform: uppercase;
-      &.active {
-        border-bottom: solid 3px #7862a5;
+      &.active{
         border: none;
+        border-bottom: solid 2px grey;
       }
+    
     }
   }
 }
-
 /*section card style*/
 .card-type-1 {
   border: none;
