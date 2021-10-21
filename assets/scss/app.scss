@@ -61,7 +61,7 @@ h6 {
   line-height: 27px;
   font-weight: 300;
 }
-.color-1{
+.textcolor-1{
   color:#656868;
 }
 /*section heading starts*/
@@ -102,10 +102,11 @@ h6 {
   }
   .card-body {
     .card-title {
-      color:red;
+      padding-top: 5px;
+      margin-bottom: 20px;
     }
     .card-text {
-      color: green;
+      margin-bottom: 15px;
     }
     .card-link {
       color: green;
