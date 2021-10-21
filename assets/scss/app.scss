@@ -60,13 +60,13 @@ h6 {
   line-height: 27px;
   font-weight: 300;
 }
-.text-color-2{
+.text-color-2 {
   color: #656868;
 }
-.text-color-3{
+.text-color-3 {
   color: #2b2b2b;
 }
-.text-color-4{
+.text-color-4 {
   color: #ffd105;
 }
 .btn-primary {
@@ -94,7 +94,7 @@ h6 {
   text-decoration: none;
 }
 
-.heading-underline{
+.heading-underline {
   padding-bottom: 10px;
   margin-bottom: 10px;
   &:after {
@@ -105,7 +105,7 @@ h6 {
     background: #ffd105;
     margin-top: 20px;
   }
-  &.text-center{
+  &.text-center {
     &:after {
       margin-left: auto;
       margin-right: auto;
@@ -145,15 +145,15 @@ h6 {
 /* Section Card Type 1 Starts*/
 .card-type-1 {
   border: none;
-  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, .18);
-  &:hover{
-    box-shadow: 0 0 30px 0 rgba(101, 105, 167, .4);
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
+  &:hover {
+    box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
   }
   .card-body {
     padding: 30px;
     .card-title {
       margin-bottom: 20px;
-      i{
+      i {
         color: #ffd105;
         padding-right: 25px;
         display: inline-block;
@@ -169,11 +169,11 @@ h6 {
 /* Section Card Type 1 Ends*/
 
 /* Section Tab Type 1 Starts*/
-.nav-tabs-1{
-  .nav-item{
-    .nav-link{
+.nav-tabs-1 {
+  .nav-item {
+    .nav-link {
       text-transform: uppercase;
-      &.active{
+      &.active {
         border: none;
         border-bottom: solid 3px #7862a5;
       }
@@ -181,3 +181,13 @@ h6 {
   }
 }
 /* Section Tab Type 1 Ends*/
+
+/* Section Carousel 1 Starts*/
+.carousel-1 {
+  .carousel-caption {
+    text-align: left;
+    left: 50px;
+    top: 50px;
+  }
+}
+/* Section Carousel 1 Ends*/
