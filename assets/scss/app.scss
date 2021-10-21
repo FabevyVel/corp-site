@@ -147,3 +147,20 @@ h6 {
 }
 
 /* Section card type 1 ends*/
+
+
+/* Section Tab type 1 starts*/
+.nav-Tabs-1{
+  .nav-item{
+    .nav-link{
+      text-transform: uppercase;
+      &.active{
+        border: none;
+        border-bottom: solid 4px #7862a5;
+      }
+    }
+  }
+}
+
+
+/* Section Tab type 1 ends*/
