@@ -24,11 +24,10 @@ body {
 //Smooth Scroll
 
 h1 {
-  font-size: 57px;
-  line-height: 57px;
+  font-size: 48px;
+  line-height: 48px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #2b2b2b;
 }
 
 h2 {
@@ -45,9 +44,8 @@ h4 {
 
 h5 {
   font-size: 21px;
-  line-height: 21px;
+  line-height: 26px;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 h6 {
@@ -55,23 +53,22 @@ h6 {
   line-height: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #989898;
+  color: #656868;
 }
 
 .lead {
   font-size: 23px;
   line-height: 27px;
   font-weight: 300;
-  color: #2b2b2b;
+}
+.text-style {
+  text-transform: uppercase;
 }
 .text-color-2 {
   color: #656868;
 }
 .text-color-3 {
-  color: #2b2b2b;
-}
-.text-color-4 {
-  color: #ffd105;
+  color: #fc9424;
 }
 .btn-primary {
   background-color: #ffd105;
@@ -104,10 +101,10 @@ h6 {
   &:after {
     content: "";
     display: block;
+    margin-top: 20px;
     width: 100px;
     height: 2px;
     background: #ffd105;
-    margin-top: 20px;
   }
   &.text-center {
     &:after {
@@ -116,8 +113,7 @@ h6 {
     }
   }
 }
-
-/* Section Heading Starts*/
+/* section heading starts*/
 .section-heading {
   h6 {
     margin-bottom: 15px;
@@ -128,10 +124,10 @@ h6 {
     &:after {
       content: "";
       display: block;
+      margin-top: 20px;
       width: 160px;
       height: 4px;
-      background-color: yellow;
-      margin-top: 20px;
+      background: #ffd105;
     }
   }
   .lead {
@@ -144,22 +140,37 @@ h6 {
     }
   }
 }
-/* Section Heading Ends*/
+/* section heading ends*/
 
-/* Section Card Type 1 Starts*/
+/* section card type 1 starts */
 .card-type-1 {
   border: none;
   box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
   &:hover {
     box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
+    
+  }
+  .card-footer {
+    padding: 15px 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid #ebe9f4;
+    background-color: #fff;
+    
   }
   .card-body {
     padding: 30px;
+    .card-subtitle {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
     .card-title {
       margin-bottom: 20px;
       i {
         color: #ffd105;
-        padding-right: 25px;
+        padding-right: 15px;
         display: inline-block;
       }
     }
@@ -170,22 +181,30 @@ h6 {
     }
   }
 }
-/* Section Card Type 1 Ends*/
-/* Section Card Type 1 Starts*/
-.card-type-1 {
-  border: none;
-  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
-  &:hover {
-    box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
-  }
-  .card-body {
-    padding: 30px;
-    .card-title {
-      margin-bottom: 20px;
-    }
-    .card-text {
-      margin-bottom: 15px;
+/* section card type 1 ends */
+
+/* section tab type 1 starts*/
+.nav-tabs-1 {
+  .nav-item {
+    .nav-link {
+      text-transform: uppercase;
+      &.active {
+        border: none;
+        border-bottom: solid 3px #7862a5;
+      }
     }
   }
 }
-/* Section Card Type 1 Ends*/
+/* section tab type 1 ends */
+
+/* section carousel 1 starts*/
+.carousel-1{
+  .carousel-caption{
+    text-align: left;
+    left: 50px;
+    top: 50px;
+    bottom: auto;
+  }
+}
+
+/* section carousel 1 ends*/
