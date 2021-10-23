@@ -13,7 +13,7 @@
 
 body{
   font-family: Calibre, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 27px;
   color: #2b2b2b;
@@ -24,10 +24,9 @@ body{
 //Smooth Scroll
 
 h1{
-  font-size: 57px;
+  font-size: 47px;
   line-height: 57px;
   font-weight: 600;
-  text-transform: uppercase
 }
 
 h2{
@@ -40,11 +39,10 @@ h4{
   font-size: 26px;
   line-height: 21px;
   font-weight: 600;
-  color: #656868;
 }
 
 h5{
-  font-size: 15px;
+  font-size: 21px;
   line-height: 21px;
   font-weight: 500;
 }
@@ -62,124 +60,124 @@ h6{
   line-height: 27px;
   font-weight: 300;
 }
-.btn-primary{
-  background-color: #ffd105;
-  color: #2b2b2b;
-  border:solid 2px #ffd105;
-  text-transform: uppercase;
-  border-radius:24px ;
-  font-weight: 600;
-  font-size: 15px;
-  padding: 8px 50px;
+.text-color-2{
+  color:#656868;
 }
-.btn-primay-hover{
-  border:solid 2px #ffd105;
-  background: none;
+.text-color-3{
+  color:#656868;
 }
-.btn.link{
-  color:#ffd105
+.text-color-4{
+  color: #ffd105;
+  padding-top: 10px;
 }
 .heading-underline{
   padding-bottom: 10px;
   margin-bottom: 10px;
   &:after{
-    content:'';
+    content:"";
     display: block;
     width: 160px;
     height: 4px;
     background: #ffd105;
-    margin-top: 9px
+    margin-top: 20px
+  }
+  &.text-center{
+    &:after {
+      margin-left: auto;
+      margin-right: auto ;
+    }
+  }
+} 
+
+
+/* Section Heading Starts  */
+.section-heading {
+  h6{
+     margin-bottom: 15px;
+  }
+  h1{
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+    &:after{
+      content:"";
+      display: block;
+      width: 160px;
+      height: 4px;
+      background: #ffd105;
+      margin-top: 20px
+    }
+  }
+  .lead{
+    margin-bottom: 10px;
+  }
+  &.section-heading-center{
+    h1:after{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+/* Section Heading Ends  */
+
+/* section cart type 1 Starts*/
+.card-type-1 {
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
+  &:hover{
+    box-shadow: 0 0 30px 0 rgba(101,105,167, .4);
   }
   .text-center{
     &:after{
       margin-left: auto;
       margin-right: auto;
     }
-  }
 }
-/* Section Heading Starts  */
-.section-heading{
-  .p{
-    font-size: 10px;
-  }
-  h6{
-     margin-bottom: 4px;
-  }
-  h1{
-    font-size: 24px;
-    padding-bottom: 11px; 
-    &:after{
-      content:'';
-      display: block;
-      width: 160px;
-      height: 4px;
-      background: #ffd105;
-      margin-top: 9px
+}
+.card-body {
+  padding:30px;
+  .card-tittle{
+    margin-bottom: 20px;
+    i{
+      color:#ffd105;
+      display:inline-block;
     }
-  }
-}
-.section-heading.section-heading-center h1:after {
-  margin-left: auto;
-  margin-right: auto;
-}
-.section-heading .lead{
-margin-bottom: 10px;
-}
-/* Section Heading Ends  */
-
-/* section cart type 1 Starts*/
-.card-type-1{
-  border: none;
-  box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
-  &:hover{
-    box-shadow: 0 0 30px 0 rgba(101,105,167, .4);
-  }
-   .card-body{
-     padding:30px;
-      .card-tittle{
-        margin-bottom: 20px;
-        font-size: 18px;
-        .i{
-          padding-bottom: 15px;
-        }
       }
      .card-text{
        margin-bottom: 15px;
-       font-size: 15px;
       }
      .card-link{
        color:#ffd105;
       }
-   }
-}
+    }
 /* section card typs 1 Ends */
 
-/* section cart type 1 Starts*/
+/* section card type 2 Starts*/
 .card-type-2{
   border: none;
   box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
+  width:38%;
   &:hover{
     box-shadow: 0 0 30px 0 rgba(101,105,167, .4);
   }
    .card-body{
      padding:30px;
       .card-tittle{
-        margin-bottom: 20px;
-        font-size: 18px; 
+        margin-bottom: 20px; 
         i{
-          padding-bottom: 15px; 
+          padding-bottom: 25px; 
+          display: inline-block;
+          color:#ffd105;
         }
       }
      .card-text{
        margin-bottom: 15px;
-       font-size: 15px;
       }
      .card-link{
        color:#ffd105;
       }
     }
   }
-/* section card typs 1 Ends */
+/* section card type 2 Ends */
 
 /* section Tab Type 1 Starts*/
   .nav-tabs-1{
@@ -196,25 +194,11 @@ margin-bottom: 10px;
   }
 /* section Tab Type 1 Ends*/
 
- /*section  card type 1 starts */
- .card-type-1{
-  width: 29%;
-  .card-body{
-    .subtitle{
-      .p{
-      margin-top: 0.75rem;
-      margin-bottom: 6px;
-      color: #fc9424;
-      font-size: .8571428571em;
-      text-transform: uppercase;
-      font-weight: 600;
-      }
-    }
-  }
+
+ /* section carousel-1 Starts */
+ .carousal-1{
+   .carousal-caption{
+     text-align: left;
+   }
  }
- .card-footer{
-  .btn.link.strong{
-    color:#ffd105;
-  }
- }
- /*section  card type 1 starts */ 
+ /* section carousel-1 Ends */
