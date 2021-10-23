@@ -13,7 +13,7 @@
 
 body{
   font-family: Calibre, Helvetica, sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 27px;
   color: #2b2b2b;
@@ -27,7 +27,7 @@ h1{
   font-size: 57px;
   line-height: 57px;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 h2{
@@ -44,10 +44,9 @@ h4{
 }
 
 h5{
-  font-size: 21px;
+  font-size: 15px;
   line-height: 21px;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 h6{
@@ -55,7 +54,7 @@ h6{
   line-height: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #656868;
+  color:#2b2b2b;
 }
 
 .lead{
@@ -63,11 +62,45 @@ h6{
   line-height: 27px;
   font-weight: 300;
 }
-
+.btn-primary{
+  background-color: #ffd105;
+  color: #2b2b2b;
+  border:solid 2px #ffd105;
+  text-transform: uppercase;
+  border-radius:24px ;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 50px;
+}
+.btn-primay-hover{
+  border:solid 2px #ffd105;
+  background: none;
+}
+.btn.link{
+  color:#ffd105
+}
+.heading-underline{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  &:after{
+    content:'';
+    display: block;
+    width: 160px;
+    height: 4px;
+    background: #ffd105;
+    margin-top: 9px
+  }
+  .text-center{
+    &:after{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
 /* Section Heading Starts  */
 .section-heading{
   .p{
-    font-size: 15px;
+    font-size: 10px;
   }
   h6{
      margin-bottom: 4px;
@@ -94,7 +127,7 @@ margin-bottom: 10px;
 }
 /* Section Heading Ends  */
 
-/* section cart type 1 starts*/
+/* section cart type 1 Starts*/
 .card-type-1{
   border: none;
   box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
@@ -106,8 +139,8 @@ margin-bottom: 10px;
       .card-tittle{
         margin-bottom: 20px;
         font-size: 18px;
-        i{
-          padding-bottom: 15px; 
+        .i{
+          padding-bottom: 15px;
         }
       }
      .card-text{
@@ -121,7 +154,7 @@ margin-bottom: 10px;
 }
 /* section card typs 1 Ends */
 
-/* section cart type 2 starts*/
+/* section cart type 1 Starts*/
 .card-type-2{
   border: none;
   box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
@@ -132,7 +165,7 @@ margin-bottom: 10px;
      padding:30px;
       .card-tittle{
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 18px; 
         i{
           padding-bottom: 15px; 
         }
@@ -146,4 +179,42 @@ margin-bottom: 10px;
       }
     }
   }
-  /* section card typs 2 Ends */
+/* section card typs 1 Ends */
+
+/* section Tab Type 1 Starts*/
+  .nav-tabs-1{
+    color:red;
+    .nev-item{
+      color:red;
+      .nev-link{
+        color:red;
+        &.active{
+          color:red
+        }
+      }
+    }
+  }
+/* section Tab Type 1 Ends*/
+
+ /*section  card type 1 starts */
+ .card-type-1{
+  width: 29%;
+  .card-body{
+    .subtitle{
+      .p{
+      margin-top: 0.75rem;
+      margin-bottom: 6px;
+      color: #fc9424;
+      font-size: .8571428571em;
+      text-transform: uppercase;
+      font-weight: 600;
+      }
+    }
+  }
+ }
+ .card-footer{
+  .btn.link.strong{
+    color:#ffd105;
+  }
+ }
+ /*section  card type 1 starts */ 
