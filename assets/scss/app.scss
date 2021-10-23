@@ -24,7 +24,7 @@ body {
 //Smooth Scroll
 
 h1 {
-  font-size: 57px;
+  font-size: 47px;
   line-height: 57px;
   font-weight: 600;
   text-transform: uppercase;
@@ -77,8 +77,8 @@ h6 {
   &:after {
     content: "";
     display: block;
-    width: 100px;
-    height: 2px;
+    width: 160px;
+    height: 4px;
     background: #ffd105;
     margin-top: 20px;
   }
@@ -125,7 +125,7 @@ h6 {
   box-shadow: 0 15px 30px 0 rgba(101, 105, 167, .18);
   &:hover{
     box-shadow: 0 15px 30px 0 rgba(101, 105, 167, .4);
-}
+    }
   }
   .card-body {
     padding:30px;
