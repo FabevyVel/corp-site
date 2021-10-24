@@ -68,17 +68,20 @@ h6{
   color: #2b2b2b;
   border: solid 2px #ffd105;
   text-transform: uppercase;
-  border-radius: 24px;
-  font-weight: 600;
-  font-size: 15px;
-  padding: 8px 50px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 15px 30px 10px 30px;
+  &:hover{
+    color: #ffd105;
+    border: solid 2px #ffd105;
+  }
 }
 
 .btn-primary:hover{
  border: solid 2px #ffd105;
  background: none; 
 }
-
 .btn-link{
   color: #ffd105;
   text-decoration: none;
@@ -116,7 +119,7 @@ h6{
   }
 }
 /* Section Heading Ends*/
-/* Section Card Tab-1 Starts*/
+/* Section Card Type-1 Starts*/
 .card-type-1{
   border: none;
   box-shadow: 0 15px 30px 0 rgba(37, 39, 58, .18);
@@ -156,9 +159,9 @@ h6{
     }
   }
 }
-/* Section Card Tab-1 Ends*/
+/* Section Card Type-1 Ends*/
 
-/* Section Card Tab-2 Starts*/
+/* Section Card Type-2 Starts*/
 
 .card-type-2{
   border: none;
@@ -183,7 +186,7 @@ h6{
     }
   }
 }
-/* Section Card Tab-2 Ends*/
+/* Section Card Type-2 Ends*/
 
 /* Section Tab Starts*/
 .nav-tab{
@@ -206,7 +209,7 @@ h6{
 }
 /* Section Tab Ends*/
 
-/* Section Card Tab-3 Starts*/
+/* Section Card Type-3 Starts*/
 
 .card-type-3{
   border: none;
@@ -224,10 +227,10 @@ h6{
       &:after{
         content: '';
         display: block;
-        width: 160px;
-        height: 4px;
+        width: 100px;
+        height: 2px;
         background: #ffd105;
-        margin-top: 20px; 
+        margin: 20px auto 10px auto; 
       }
     }
     .card-text{
@@ -250,4 +253,63 @@ h6{
   }
 }
 
-/* Section Card Tab-3 Ends*/
+/* Section Card Type-3 Ends*/
+
+/* Section Card Type-4 Starts*/
+.card-type-4{
+  border: none;
+  box-shadow: 0 15px 30px 0 rgba(37, 39, 58, .18);
+  &:hover{
+  box-shadow: 0 15px 30px 0 rgba(37, 39, 58, .4);
+  }
+  .card-body{
+    color: #9c9266;
+    .card-title{
+      font-size: 16px;
+      margin: 25px 0px;
+      line-height: 23px;
+      font-weight: 600;
+      color: #fc9424;
+      text-transform: uppercase;
+    }
+    .card-subtitle{
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: 500;
+      color: #2b2b2b;
+      text-transform: inherit;
+    }
+    .card-text{
+      font-size: 20px;
+      line-height: 27px;
+      font-weight: 400;
+      color: #656868;
+      margin: 20px 0px 40px 0px;
+    }
+    .card-link{
+      font-size: 16px;
+      line-height: 23px;
+      font-weight: 500;
+      color: #2b2b2b;
+      margin-top: 15px;
+      text-decoration: none;
+      &:hover{
+        color: #ffd105;
+      }
+    }
+  }
+}
+/* Section Card Type-4 Ends*/
+
+/* Section Carousel Starts*/
+.carousel-1{
+  .carousel-caption{
+    h5{
+      line-height: 53px;
+      font-size: 53px;
+      font-weight: 600;
+      color: #000000;
+    }
+  }
+}
+/* Section Carousel Ends*/
