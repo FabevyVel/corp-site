@@ -195,3 +195,26 @@ h6 {
   }
 }
 /* Section Carousel 1 Ends*/
+
+/* Section Nav Link-1 Starts*/
+// TODO: Implement hover style 
+.nav-link-1{
+  h4{
+    line-height: 21px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  ul.nav{
+    color: blue;
+    .nav-item{
+      color: blue;
+      .nav-link{
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+      }
+    }
+  }
+}
+/* Section Nav Link-1 Ends*/
