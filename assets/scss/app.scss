@@ -117,6 +117,10 @@ strong{
   
   .card-body{
     h5{
+     i{
+       display: inline-block;
+       padding-right: 15px;
+     }
      
     }
     p{
@@ -126,13 +130,16 @@ strong{
       text-align: left;
       color: #656868;
     }
-    link{
-      color: yellow;
+    .link{
+      
       a{
         color: yellow;
         font-size: 16px;
         line-height: 23px;
         font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+
         &:hover{
           color: black;
         }
@@ -188,7 +195,12 @@ padding: 16px 16px 10px 16px;
     padding-top: 7px;
   }
 }
-
+.borderno{
+  border: none;
+  a:hover{
+    color: red;
+  }
+}
 
 
 /* card-type-2 end*/
