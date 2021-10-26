@@ -148,29 +148,31 @@ h6 {
 /* Section Heading Ends*/
 
 /* Section Card Type 1 Starts*/
-.card-type-1 {
-  border: none;
-  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
-  &:hover {
-    box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
-  }
-  .card-body {
-    padding: 30px;
-    .card-title {
-      margin-bottom: 20px;
-      i {
-        color: #ffd105;
-        padding-right: 25px;
-        display: inline-block;
-      }
-    }
-    .card-text {
-      margin-bottom: 15px;
-    }
-    .card-link {
-    }
-  }
-}
+
+// .card-type-1 {
+//   border: none;
+//   box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
+//   &:hover {
+//     box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
+//   }
+//   .card-body {
+//     padding: 30px;
+//     .card-title {
+//       margin-bottom: 20px;
+//       i {
+//         color: #ffd105;
+//         padding-right: 25px;
+//         display: inline-block;
+//       }
+//     }
+//     .card-text {
+//       margin-bottom: 15px;
+//     }
+//     .card-link {
+//     }
+//   }
+// }
+
 /* Section Card Type 1 Ends*/
 
 /* Section Tab Type 1 Starts*/
@@ -196,3 +198,8 @@ h6 {
   }
 }
 /* Section Carousel 1 Ends*/
+
+
+.card-type-1{
+  
+}
