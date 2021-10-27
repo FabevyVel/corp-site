@@ -178,3 +178,56 @@ h6 {
     bottom: auto;
   }
 }
+
+/*Form-section-starts*/
+.form-style-1{
+  .form-label, .form-check-label{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #7c8080;
+  }
+  .form-control, .form-select{
+    color: #adadad;
+    border: none;
+    border-bottom: solid 3px black;
+    border-radius: 0;
+    background: none;
+    &:focus{
+      border-bottom: solid 1px #ffd105;
+      box-shadow: none;
+    }
+  }
+} 
+
+.form-wrapper-1{
+  background-color: #3d3d3d;
+  padding: 20px 30px;
+}
+/*Form-section-ends*/
+
+/*navbar-section*/
+.navbar{
+  .navbar-brand{
+
+  }
+.navbar-nav{
+  .nav-item{
+    .nav-link{
+      &:active{
+
+      }
+      &.dropdown{
+        .dropdown-menu{
+          li{
+            .dropdown-item{
+
+            }
+          }
+        }
+      }
+    }
+  }
+}  
+}
+/*navbar-section*/ 
