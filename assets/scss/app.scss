@@ -40,7 +40,6 @@ h4 {
   font-size: 26px;
   line-height: 21px;
   font-weight: 600;
-  color: #656868;
 }
 
 h5 {
@@ -63,7 +62,52 @@ h6 {
   line-height: 27px;
   font-weight: 300;
 }
+.text-color-2{
+  color: #656868;
+}
+.btn-primary{
+  background-color: #ffd105;
+  color: #2b2b2b;
+  border: solid 2px #ffd105;
+  text-transform: uppercase;
+  border-radius: 24px;
+  font-weight: 600px;
+  font-size: 15px;
+  padding: 8px 50px;
+}
 
+.btn-primary:hover{
+  border: solid 2px #ffd105;
+  background: none;
+}
+.btn-link{
+  color: #ffd105;
+  text-decoration: none;
+}
+.btn-link:hover{
+color: #2b2b2b;
+text-decoration: none;
+}
+
+.heading-underline{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  &:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #ffd105;
+    margin-top: 20px;
+  }
+  &.text-center{
+    &:after{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+}
 /* section heading starts*/
 
 .section-heading {
@@ -96,27 +140,46 @@ h6 {
 
 .card-type-1 {
   color: black;
-  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, .18);
-&:hover {
-  border: none;
-  box-shadow: 0 0 30px 0 rgba(101, 105, 167, .4);
-}
-.card-body {
-  padding: 30px;
-  .card-title {
-    margin-bottom: 20px;
-    i{
-      color: yellow;
-      padding-right: 25px;
-      display: inline-block;
+  box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
+  &:hover {
+    border: none;
+    box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
+  }
+  .card-body {
+    padding: 30px;
+    .card-title {
+      margin-bottom: 20px;
+    }
+    .card-text {
+      margin-bottom: 15px;
+    }
+    .card-link {
     }
   }
-  .card-text {
-    margin-bottom: 15px;
-  }
-  .card-link {
-    
-  }
-}
 }
 /* section card card-type-1 ends*/
+
+/* section tab-type-1 starts*/
+.nav-tabs-1 {
+  .nav-item {
+    .nav-link{
+      text-transform: uppercase;
+      &.active{
+        border: none;
+        border-bottom: solid 3px #7862a5;
+      }
+    }
+  }
+}
+/* section tab-type-1 ends*/
+
+/* section carousel-1 starts*/
+.carousel-1{
+  .carousel-caption{
+    text-align: left;
+    left: 50px;
+    top: 50px;
+    bottom: auto;
+  }
+}
+/* section carousel-c1 ends*/
