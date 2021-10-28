@@ -113,6 +113,38 @@ h6 {
   }
 }
 
+.page-section{
+  padding: 60px 0;
+}
+/* Section Nav bar Starts */
+.navbar {
+  .navbar-brand {
+    img{
+      width: 200px;
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: #2b2b2b;
+        font-size: 15px;
+        font-weight: 500;
+        &.active {
+        }
+        &.dropdown {
+          .dropdown-menu {
+            li {
+              .dropdown-item {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* Section Nav bar Ends*/
+
 /* Section Heading Starts*/
 .section-heading {
   h6 {
@@ -146,6 +178,7 @@ h6 {
 .card-type-1 {
   border: none;
   box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.18);
+  margin-bottom: 20px;
   &:hover {
     box-shadow: 0 0 30px 0 rgba(101, 105, 167, 0.4);
   }
@@ -174,6 +207,7 @@ h6 {
     2. Hover state style
 */
 .nav-tabs-1 {
+  margin-bottom: 40px;
   .nav-item {
     .nav-link {
       text-transform: uppercase;
@@ -197,24 +231,72 @@ h6 {
 /* Section Carousel 1 Ends*/
 
 /* Section Nav Link-1 Starts*/
-// TODO: Implement hover style 
-.nav-link-1{
-  h4{
+// TODO: Implement hover style
+.nav-link-1 {
+  h4 {
     line-height: 21px;
     font-size: 17px;
     font-weight: 600;
   }
-  ul.nav{
-    color: blue;
-    .nav-item{
-      color: blue;
-      .nav-link{
+  ul.nav {
+    .nav-item {
+      .nav-link {
         padding-left: 0px;
         font-size: 14px;
         line-height: 1.2;
         font-weight: 400;
+        color: #fff;
       }
     }
   }
 }
 /* Section Nav Link-1 Ends*/
+
+/* Section Form Form-1 Starts*/
+.form-style-1 {
+  .form-control-wrapper{
+    padding-bottom: 20px;
+  }
+  .form-label,
+  .form-check-label {
+    color: #7c8080;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  .form-control,
+  .form-select {
+    color: #adadad;
+    border: none;
+    border-bottom: solid 1px #2b2b2b;
+    border-radius: 0;
+    background: none;
+    &:focus {
+      border-bottom: solid 1px #ffd105;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+/* Section Form Form-1 Ends*/
+
+.form-wrapper-1 {
+  background-color: #3d3d3d;
+  padding: 20px 50px;
+  border-radius: 8px;
+}
+
+footer{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  background-color: #2b2b2b;
+  background-image: url('../images/footer-bg.png');
+  .footer-top{
+    padding-bottom: 60px;
+  }
+  .footer-bottom{
+    padding-top: 60px;
+    border-top: 1px solid #393939;
+  }
+}
