@@ -58,9 +58,26 @@ h6{
 }
 
 .lead{
-  font-size: 23px;
+  font-size: 21px;
   line-height: 27px;
   font-weight: 300;
+}
+.headless-commerce{
+  text-align: left;
+  margin: 30px 153px 0px 153px;
+}
+.resource{
+  text-align: left;
+  margin: 30px 153px 0px 153px;
+}
+.commerce{
+  font-size: 44px;
+  line-height: 44px;
+  font-weight: 600;
+}
+.lead-1{
+  color: #ffd105;
+  font-weight: 600;
 }
 
 .btn-primary{
@@ -71,7 +88,7 @@ h6{
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
-  padding: 15px 30px 10px 30px;
+  padding: 10px 30px;
   &:hover{
     color: #ffd105;
     border: solid 2px #ffd105;
@@ -90,6 +107,38 @@ h6{
   color: #2b2b2b;
   text-decoration: none;
 }
+
+/* Section Navbar Starts*/
+.navbar{
+  .collapse{
+    .navbar-nav{
+      .nav-item{
+        .btn-primary-1{
+          background-color: #ffd105;
+          color: #2b2b2b;
+          border: solid 2px #ffd105;
+          text-transform: uppercase;
+          border-radius: 30px;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 14px;
+          padding: 7px 14px;
+          &:hover{
+            color: #2b2b2b;
+            border: solid 2px #ffd105;
+          }
+        }
+        .nav-link{
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          color: #2b2b2b;
+        }
+      }
+    }
+  }
+}
+/* Section Navbar Ends*/
 
 /* Section Heading Starts*/
 .section-heading{
@@ -119,6 +168,7 @@ h6{
   }
 }
 /* Section Heading Ends*/
+
 /* Section Card Type-1 Starts*/
 .card-type-1{
   border: none;
@@ -175,8 +225,8 @@ h6{
       margin-bottom: 10px;
       font-size: 21px;
       line-height: 26px;
+      font-weight: 700;
       color: #656868;
-      text-transform: lowercase;
     }
     .card-text{
       font-size: 19px;
@@ -207,6 +257,29 @@ h6{
     }
   }
 }
+
+.nav-tabs-1{
+  .nav-item{
+    .nav-link{
+      font-size: 16px;
+      line-height: 23px;
+      font-weight: 600;
+      color: #000;
+      text-transform: uppercase;
+      border: none;
+      padding: 0px 35px;
+      background-color: #fff;
+      &:hover{
+        color: #7862a5;
+      }
+      &.active{
+        border: none;
+        border-bottom: solid 3px #7862a5;
+      }
+    }
+  }
+}
+
 /* Section Tab Ends*/
 
 /* Section Card Type-3 Starts*/
@@ -305,8 +378,16 @@ h6{
 .carousel-1{
   .carousel-caption{
     text-align: left;
-    top: 50px;
+    top: 64px;
     left: 50px;
+  }
+  h5{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #000000;
+    padding-right: 368px;
+    margin-bottom: 25px;
   }
 }
 /* Section Carousel Ends*/
