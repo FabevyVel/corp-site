@@ -14,12 +14,65 @@
     <link href="assets/css/app.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
-      href="assets/fonts/bootstrap-icons/font/bootstrap-icons.css"/>
-      <!--endbuild-->
-    
+      href="assets/fonts/bootstrap-icons/font/bootstrap-icons.css"
+      type="text/css"
+    />
+    <!--endbuild-->
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fabevy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-primary"
+                >Book Meeting</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <!--section heading starts -->
       <div class="section-heading">
@@ -102,16 +155,16 @@
             alt="resource-1"
           />
           <p class="card-subtitle text-center">BLOG</p>
-          <h5 class="card-title">
+          <h5 class="card-title text-lowercase">
             Ramp Up Sales with Industry-Leading Ecommerce Customer Experience
           </h5>
-          <p>
+          <p class="text-color-3">
             Every retailer wants their customers to have the best possible
             customer experience with their brand, and a disappointing CX is now
             a major turn-off for
           </p>
         </div>
-        <div class="cord-footer text-center">
+        <div class="card-footer text-center">
           <a href="#" class="card-link btn-link">Read More</a>
         </div>
       </div>
@@ -173,31 +226,28 @@
           <div class="carousel-item active">
             <img src="images/banner-1.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h1>
-                DELIVER ON THE PROMISE OF MODERN, OMNICHANNEL EXPERIENCES</h1>
-                <div>
-                  <button type="button" class="btn btn-primary">Primary</button>
-                </div>
+              <h1>DELIVER ON THE PROMISE OF MODERN, OMNICHANNEL EXPERIENCES</h1>
+              <div>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="images/banner-1.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h1>
-                DELIVER ON THE PROMISE OF MODERN, OMNICHANNEL EXPERIENCES</h1>
-                <div>
-                  <button type="button" class="btn btn-primary">Primary</button>
-                </div>
+              <h1>DELIVER ON THE PROMISE OF MODERN, OMNICHANNEL EXPERIENCES</h1>
+              <div>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
             </div>
           </div>
           <div class="carousel-item">
             <img src="images/banner-1.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h1>
-                DELIVER ON THE PROMISE OF MODERN, OMNICHANNEL EXPERIENCES</h1>
-                <div>
-                  <button type="button" class="btn btn-primary">Primary</button>
-                </div>
+              <h1>DELIVER ON THE PROMISE OF MODERN, OMNICHANNEL EXPERIENCES</h1>
+              <div>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
             </div>
           </div>
         </div>
@@ -205,6 +255,44 @@
       <!--section carousel ends-->
       <hr />
       <hr />
+      <form>
+        <div class="form-style-1">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input type="email" class="form-control" id="exampleInputEmail1" />
+          <div>
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <div>
+            <label for="formselect1" class="form-label">Select Box</label>
+            <select class="form-select" id="formselect1">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
       <hr />
       <hr />
     </div>
