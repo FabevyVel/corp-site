@@ -63,7 +63,7 @@ h6 {
   font-weight: 300;
 }
 
-.tab-content h5{
+.tab-content h5 {
   font-size: 21px;
   font-weight: bold;
   text-transform: none;
@@ -96,7 +96,7 @@ h6 {
 .color-1 {
   color: #fc9424;
 }
-.card-footer{
+.card-footer {
   background: none;
 }
 
@@ -167,6 +167,7 @@ h6 {
 /*tabs-section*/
 
 .tabs-1 {
+  margin-bottom: 20px;
   .nav-item {
     .nav-link {
       text-transform: uppercase;
@@ -180,8 +181,8 @@ h6 {
 }
 
 /*carousel-section*/
-.carousel-1{
-  .carousel-caption{
+.carousel-1 {
+  .carousel-caption {
     text-align: left;
     left: 50px;
     top: 50px;
@@ -190,54 +191,78 @@ h6 {
 }
 
 /*Form-section-starts*/
-.form-style-1{
-  .form-label, .form-check-label{
+.form-style-1 {
+  .form-control-wrapper{
+    padding-bottom: 20px;
+  }
+  .form-label,
+  .form-check-label {
     font-weight: 400px;
     font-size: 16px;
     line-height: 23px;
     color: #7c8080;
   }
-  .form-control, .form-select{
+  .form-control,
+  .form-select {
     color: #adadad;
     border: none;
-    border-bottom: solid 3px black;
+    border-bottom: solid 1px black;
     border-radius: 0;
     background: none;
-    &:focus{
+    &:focus {
       border-bottom: solid 1px #ffd105;
       box-shadow: none;
     }
   }
-} 
+}
 
-.form-wrapper-1{
+.form-wrapper-1 {
   background-color: #3d3d3d;
-  padding: 20px 30px;
+  padding: 20px 50px;
+  border-radius: 8px;
 }
 /*Form-section-ends*/
 
 /*navbar-section*/
-.navbar{
-  .navbar-brand{
-
+.navbar {
+  .navbar-brand {
   }
-.navbar-nav{
-  .nav-item{
-    .nav-link{
-      &:active{
-
-      }
-      &.dropdown{
-        .dropdown-menu{
-          li{
-            .dropdown-item{
-
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 15px;
+        font-weight: 500;
+        &:active {
+        }
+        &.dropdown {
+          .dropdown-menu {
+            li {
+              .dropdown-item {
+              }
             }
           }
         }
       }
     }
   }
-}  
 }
-/*navbar-section*/ 
+/*navbar-section*/
+
+.page-section {
+  padding: 60px 0;
+}
+footer {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  background-color: #2b2b2b;
+  background-image: url('../img/footer-bg.png');
+}
+.footer-top{
+  padding-bottom: 60px;
+}
+.footer-bottom{
+  padding-top: 60px;
+  border-top: solid 1px #393939;
+}
