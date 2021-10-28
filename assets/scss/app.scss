@@ -228,3 +228,36 @@ outline: none;
   background-color: #2b2b2b;
   padding: 20px 30px;
 }
+
+/* section nav bar starts */
+.navbar {
+  color: green;
+  .navbar-brand {
+    color: green;
+  }
+  .navbar-nav {
+    color: green;
+    .navbar-item {
+      color: green;
+      .navbar-link {
+        color: green;
+        &.active {
+          color: green;
+        }
+        &.dropdown {
+          color: green;
+          .dropdown-menu {
+            color: green;
+            li {
+              color: green;
+              .dropdown-item {
+                color: green;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} 
+/* section nav bar ends */ 
