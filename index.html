@@ -31,8 +31,70 @@
   </head>
 
   <body>
+    <!-- secction nav bar starts -->
+    <!-- Todo:
+          1.header height
+          2.Navigation links
+          3.CTA padding
+        -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="assets/images/fabevy-logo-landscape.png"
+            class="img-fluid"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary">CALL TO ACTON</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- secction nav bar ends -->
+
     <!-- section starts-->
-    <div class="page section">
+    <div class="page-section pt-0">
       <div class="container-fluid">
         <div
           id="carouselExampleCaptions"
@@ -115,7 +177,7 @@
     <!-- section ends-->
 
     <!-- section starts-->
-    <div class="page section">
+    <div class="page-section">
       <div class="container">
         <div class="row">
           <div class="col-2">
@@ -146,7 +208,7 @@
     <!-- section ends-->
 
     <!-- section starts-->
-    <div class="page section">
+    <div class="page-section">
       <div class="container">
         <div class="section-title-wrapper">
           <div class="row">
@@ -213,7 +275,7 @@
     <!-- section ends-->
 
     <!-- section starts-->
-    <div class="page section">
+    <div class="page-section">
       <div class="container">
         <div class="section-title-wrapper">
           <div class="row">
@@ -347,7 +409,7 @@
     <!-- section ends-->
 
     <!-- section starts-->
-    <div class="page section">
+    <div class="page-section">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4">
@@ -477,7 +539,7 @@
     <!-- section ends-->
 
     <!-- section starts-->
-    <div class="page section">
+    <div class="page-section">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -569,7 +631,7 @@
     <!-- section ends-->
 
     <!-- section starts-->
-    <div class="page section">
+    <div class="page-section">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -670,7 +732,7 @@
     <!-- section ends-->
 
     <!-- section starts-->
-    <div class="page section">
+    <div class="page-section">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -1271,10 +1333,11 @@
     </div>
     <!-- section ends-->
     <hr />
+    <footer class="page-section text-white">
     <div class="container">
       <div class="footer-top">
         <div class="row">
-          <div class="col-7">
+          <div class="col-8">
             <h4>RESPOND TO A NEW RETAIL REALITY</h4>
             <p>
               Prepare yourself with key insights, guides, datapoints, and more.
@@ -1296,7 +1359,7 @@
                     </div>
                   </div>
                   <div class="col-6">
-                    <div>
+                    <div class="form-style-wrapper">
                       <label for="exampleInputEmail1" class="form-label"
                         >Last Name</label
                       >
@@ -1308,7 +1371,7 @@
                     </div>
                   </div>
                   <div class="col-6">
-                    <div>
+                    <div class="form-style-wrapper">
                       <label for="exampleInputEmail1" class="form-label"
                         >Company</label
                       >
@@ -1320,7 +1383,7 @@
                     </div>
                   </div>
                   <div class="col-6">
-                    <div>
+                    <div class="form-style-wrapper">
                       <label for="exampleInputEmail1" class="form-label"
                         >Email Address</label
                       >
@@ -1332,7 +1395,7 @@
                     </div>
                   </div>
                   <div class="col-6">
-                    <div class="form-check">
+                    <div class="form-check form-style-wrapper">
                       <input
                         type="checkbox"
                         class="form-check-input"
@@ -1344,9 +1407,11 @@
                     </div>
                   </div>
                   <div class="col-6">
-                    <button type="submit" class="btn btn-primary">
-                      Sign Up
-                    </button>
+                    <div class="form-style-wrapper text-end">
+                      <button type="submit" class="btn btn-primary">
+                        Sign Up
+                      </button>
+                    </div>
                   </div>
                 </div>
               </form>
@@ -1356,12 +1421,14 @@
       </div>
       <div class="footer-bottom">
         <div class="row">
-          <div class="col-6 col-md-2">
+          <div class="col-3 ">
             <div class="nav-link-1">
               <h4>Resource</h4>
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Active</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -1370,17 +1437,25 @@
                   <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-6 col-md-2">
+          <div class="col-3 ">
             <div class="nav-link-1">
               <h4>Resource</h4>
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Active</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -1389,17 +1464,25 @@
                   <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-6 col-md-2">
+          <div class="col-3 ">
             <div class="nav-link-1">
               <h4>Resource</h4>
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Active</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -1408,17 +1491,25 @@
                   <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-6 col-md-2">
+          <div class="col-3 ">
             <div class="nav-link-1">
               <h4>Resource</h4>
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Active</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -1427,7 +1518,13 @@
                   <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
                 </li>
               </ul>
             </div>
@@ -1435,6 +1532,7 @@
         </div>
       </div>
     </div>
+  </footer>
     <hr />
     <hr />
     <hr />
