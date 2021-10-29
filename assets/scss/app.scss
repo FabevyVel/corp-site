@@ -212,3 +212,54 @@ h6 {
       bottom: auto;
    }
 }
+
+/*footer top start here*/
+.form-group{
+  color: blue;
+}
+  .form-label,.form-check-label{
+    color:#7c8080;
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+  .form-control{
+    background: none;
+    font-size: 16px;
+    color:#adadad;
+    font-weight: 400;
+    border:none;
+    border-radius: 0;
+    border-bottom: 1px solid #ffd105;
+    &:focus{
+      border-bottom: solid 1px #ffd105;
+      box-shadow: none;
+    }
+  }
+  .form-text{
+    color: blue;
+  }
+
+.word-wrapper-1{
+  background-color: #3d3d3d;
+}
+/*footer bottom start here*/
+.nav-link-1{
+  color: #4aba6d;
+  h4{
+  color:black;
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 800px;
+  }
+  .nav{
+    color: #4aba6d;
+    .nav-item{
+      color: #4aba6d;
+      .nav-link{
+        color:#4aba6d;
+        padding: 0px;
+      }
+    }
+  }
+}
