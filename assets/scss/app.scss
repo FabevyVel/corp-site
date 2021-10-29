@@ -67,7 +67,7 @@ h6 {
 .text-color-2 {
   color: #656868;
 }
-.text-color-3{
+.text-color-3 {
   color: #656868;
 }
 .btn-primary {
@@ -113,28 +113,25 @@ h6 {
   }
 }
 
-.page-section{
+.page-section {
   padding: 60px 0;
 }
 
-.navbar{
-  .navbar-brand{
-
+.navbar {
+  .navbar-brand {
   }
-  .navbar-nab{
-    .nav-item{
-      .nav-link{
+  .navbar-nab {
+    .nav-item {
+      .nav-link {
         color: #2b2b2b;
         font-size: 15px;
         font-weight: 500px;
-        &.active{
-
+        &.active {
         }
-        &.dropdown{
-          .dropdown-menu{
-            li{
-              .dropdown-item{
-                
+        &.dropdown {
+          .dropdown-menu {
+            li {
+              .dropdown-item {
               }
             }
           }
@@ -197,6 +194,7 @@ h6 {
 
 /* section tab-type-1 starts*/
 .nav-tabs-1 {
+  margin-bottom: 20px;
   .nav-item {
     .nav-link {
       text-transform: uppercase;
@@ -227,33 +225,37 @@ h6 {
     font-weight: 600;
   }
   ul.nav {
-    color: blue;
     .nav-item {
-      color: blue;
       .nav-link {
         padding-left: 0px;
         font-size: 14px;
         line-height: 1.2;
         font-weight: 400;
+        color: #fff;
       }
     }
   }
 }
 
 .form-style-1 {
-  .form-label, .form-check-label{
+  .form-control-wrapper{
+    padding-bottom: 20px;
+  }
+  .form-label,
+  .form-check-label {
     color: #7c8080;
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
   }
-  .form-control, .form-select {
+  .form-control,
+  .form-select {
     color: #7c8080;
     border: none;
     border-bottom: solid 1px #2b2b2b;
     border-radius: 0;
     background: none;
-    &:focus{
+    &:focus {
       border-bottom: solid 5px #ffd105;
       outline: none;
       box-shadow: none;
@@ -261,30 +263,44 @@ h6 {
   }
 }
 
-.card-body{
-  .card-img-top{
+.card-body {
+  .card-img-top {
     margin: auto;
   }
-  .card-subtitle{
+  .card-subtitle {
     margin-top: 19px;
     color: orange;
     padding-top: 5px;
     padding-bottom: 2px;
     font-size: 16px;
   }
-  .card-title{
+  .card-title {
     margin-top: 19px;
     margin-bottom: 19px;
   }
 }
-.card-footer{
-  .card-link{
+.card-footer {
+  .card-link {
     border-top: solid 1px #e9eff4;
-    
   }
 }
 
-.form-wrapper-1{
+.form-wrapper-1 {
   background-color: #3d3d3d;
-  padding: 30px 20px;
+  padding: 30px 50px;
+  border-radius: 8px;
+}
+footer {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  background-color: #2b2b2b;
+  background-image: url('../../images/footer-bg.png');
+  .footer-top{
+    padding-bottom: 60px;
+  }
+  .footer-bottom{
+    padding-top: 60px;
+    border-top: solid 1px #393939;
+  }
 }
