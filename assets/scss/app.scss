@@ -69,6 +69,7 @@ h6{
 .text-color-4{
   color: #ffd105;
   padding-top: 10px;
+  padding-bottom: 17px;
 }
 .heading-underline{
   padding-bottom: 10px;
@@ -88,8 +89,38 @@ h6{
     }
   }
 } 
-
-
+/* section Navbar Starts */
+.navbar{
+  color:red;
+  .navbar-brand{
+    color:red;
+  }
+  .navbar-nav{
+    color:red;
+    .nav-item{
+      color:red;
+      .nav-link{
+        color:red;
+        &.active{
+          color:red;
+        }
+        &.dropdown{
+          color:red;
+          .dropdown-menu{
+            color:red;
+            li{
+              color:red;
+              .dropdown-item{
+                color:red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* section Navbar Ends */
 /* Section Heading Starts  */
 .section-heading {
   h6{
@@ -121,7 +152,7 @@ h6{
 
 /* section cart type 1 Starts*/
 .card-type-1 {
-  border: none;
+  border:none;
   box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
   &:hover{
     box-shadow: 0 0 30px 0 rgba(101,105,167, .4);
@@ -130,13 +161,16 @@ h6{
     &:after{
       margin-left: auto;
       margin-right: auto;
+      font-size:24px;
     }
-}
+  }
 }
 .card-body {
   padding:30px;
-  .card-tittle{
+  .card-title{
     margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
     i{
       color:#ffd105;
       display:inline-block;
@@ -151,18 +185,19 @@ h6{
     }
 /* section card typs 1 Ends */
 
-/* section card type 2 Starts*/
-.card-type-2{
+/* section card type 1 Starts*/
+.card-type-1{
   border: none;
   box-shadow: 0 15px 30px 0 rgba(101,105,167, .18);
-  width:38%;
+  width:405px;
   &:hover{
     box-shadow: 0 0 30px 0 rgba(101,105,167, .4);
   }
    .card-body{
      padding:30px;
       .card-tittle{
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
+        font-size: 20px; 
         i{
           padding-bottom: 25px; 
           display: inline-block;
@@ -177,7 +212,7 @@ h6{
       }
     }
   }
-/* section card type 2 Ends */
+/* section card type 1 Ends */
 
 /* section Tab Type 1 Starts*/
   .nav-tabs-1{
@@ -195,10 +230,71 @@ h6{
 /* section Tab Type 1 Ends*/
 
 
- /* section carousel-1 Starts */
- .carousal-1{
-   .carousal-caption{
+ /* section carousel 1 Starts */
+ .carousel-1{
+   .carousel-caption{
      text-align: left;
+     left: 50px;
+     top: 50px;
+   }
+   .h1{
+    font-size: 53px; 
+    font-weight:600px ;
    }
  }
- /* section carousel-1 Ends */
+ .btn-primary{
+   color: #2b2b2b;
+   background-color: #ffd105;
+   border-color: #ffd105;
+   font-size: 29px;
+   border-radius: 40px;
+ }
+ /* section carousel 1 Ends */
+
+ /* section nav link-1 Starts */
+//  TODO: Imlement hover style
+ .nav-link-1{
+   h4{
+      line-height: 21px;
+      font-size: 17px;
+      font-weight: 600;
+   }
+   ul.nav{
+    color: red;
+     .nav-item{
+      color: red;
+       .nav-link{
+          padding-left: 0px;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 1.2;
+       }
+     }
+   }
+ }
+ /* section Forms Form-1 Starts */
+ .form-style-1{
+   .form-label, .form-check-label{
+     color:#7c8080;
+     font-size: 16px;
+     font-weight: 400;
+     line-height:23px;
+   }
+   .form-control, .from-select{
+     color: #adadad;
+     border: none;
+     border-bottom:solid 1px #2b2b2b;
+     border-radius:0;
+     background:none;
+    &:focus{
+      border-bottom: solid 1px #ffd105;
+      outline:none;
+      box-shadow:none;
+    }
+   }
+ }
+ /* section Forms Form-1 Ends */
+ .form-wrapper-1{
+   background-color: #3d3d3d;
+   padding: 20px 30px;
+ }
