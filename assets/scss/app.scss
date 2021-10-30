@@ -165,14 +165,16 @@ h6 {
 }
   /* Section card Type 2 Ends*/
   
-  /* Section Carousel Starts */
-  .carousel-1{
-    .carousel-caption{
-      text-align: left;
-      left: 50px;
-      top: 50px;
-      bottom: auto;
-      font-size: 53px; 
+/* section carousel 1 Starts */
+ .carousel-1{
+  .carousel-caption{
+    text-align: left;
+    left: 50px;
+    top: 50px;
+    bottom: auto;
+    h1{
+      font-size: 53px;
+    }
   }
 }
 .btn-primary{
@@ -181,13 +183,7 @@ h6 {
   border-color: #ffd105;
   font-size: 29px;
   border-radius: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
-.btn-primary:hover {
-  border: solid 2px #ffd105;
-  background: none;
-}
-  /* Section Carousel Ends */
-  
+/* section carousel 1 Ends */
+
 
