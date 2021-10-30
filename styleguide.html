@@ -21,8 +21,75 @@
   </head>
 
   <body>
+    <!-- secction nav bar starts -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="assets/images/fabevy-logo-landscape.png"
+            class="img-fluid"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary">CALL TO ACTON</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- secction nav bar ends -->
+
     <div class="container">
       <!-- section heading starts-->
+      <div class="section-heading">
+        <h6>THE KIBO UNIFIED COMMERCE PLATFORM</h6>
+        <h1>EMPOWER YOUR TEAMS, DELIGHT YOUR CUSTOMERS</h1>
+        <p class="lead">
+          Global clients like Adidas, Office Depot, Taco Bell, and Patagonia
+          rely on Kibo to easily manage fulfillment, ecommerce, marketing
+          personalization, and point of sale through one unified system.
+        </p>
+      </div>
+      <hr />
       <div class="section-heading text-center section-heading-center">
         <h6>THE KIBO UNIFIED COMMERCE PLATFORM</h6>
         <h1>EMPOWER YOUR TEAMS, DELIGHT YOUR CUSTOMERS</h1>
@@ -210,7 +277,53 @@
         </div>
       </div>
       <!-- section carousel ends-->
+      <hr />
+      <hr />
+      <!-- section form form-1 starts -->
+      <form class="form-style-1">
+        <div>
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div>
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <div>
+          <label for="formselect1" class="form-label">Select box</label>
+          <select class="form-select" id="formselect1">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <!-- section form form1 ends -->
+      <hr />
     </div>
+
     <!-- Bootstrap 5 Javascript -->
     <script
       src="assets/js/vendor/bootstrap.bundle.min.js"
