@@ -267,4 +267,13 @@ footer {
 .footer-bottom{
   padding-top: 60px;
   border-top: solid 1px #393939;
+  .nav-item{
+    font-size: 17px;
+    font-weight: 600;
+    .nav-link{
+      color: aliceblue;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
 }
