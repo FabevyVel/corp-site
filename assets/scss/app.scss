@@ -210,4 +210,72 @@ h6 {
 }
 /* section carousel 1 Ends */
 
+ /* section nav link-1 Starts */
+//  TODO: Imlement hover style
+.nav-link-1{
+  h4{
+     line-height: 21px;
+     font-size: 17px;
+     font-weight: 600;
+  }
+  ul.nav{
+   .nav-item{
+     .nav-link{
+         padding-left: 0px;
+         font-size: 14px;
+         font-weight: 400;
+         line-height: 1.2;
+         color:#ffff
+      }
+    }
+  }
+}
+/* section nav link-1 Ends */
 
+/* section Forms Form-1 Starts */
+.form-style-1{
+  .form-control-wrapper{
+    padding-bottom:20px;
+  }
+  .form-label, .form-check-label{
+    color:#7c8080;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:23px;
+  }
+  .form-control, .from-select{
+    color: #adadad;
+    border: none;
+    border-bottom:solid 1px #2b2b2b;
+    border-radius:0;
+    background:none;
+   &:focus{
+     border-bottom: solid 1px #ffd105;
+     outline:none;
+     box-shadow:none;
+   }
+  }
+}
+/* section Forms Form-1 Ends */
+.form-wrapper-1{
+  background-color: #3d3d3d;
+  padding: 20px 54px;
+  border-radius: 8px;
+}
+footer{
+  background-repeat: no repeat;
+  background-position: left center;
+  background-size: cover;
+  background-color: #2b2b2b;
+  background-image:url(../images/footer.image.png);
+  .footer-top{
+    padding-bottom: 60px ;
+  }
+  .footer-bottom{
+   padding-top: 60px;
+   border-top: 1px solid #292929;
+   
+  }
+  
+  
+ }
