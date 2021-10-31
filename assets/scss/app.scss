@@ -167,7 +167,7 @@ h6 {
     }
   }
   .lead {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   &.section-heading-center {
     h1:after {
@@ -244,6 +244,9 @@ h6 {
     left: 50px;
     top: 50px;
     bottom: auto;
+    h1{
+      font-size: 53px;
+    }
   }
 }
 
@@ -313,6 +316,9 @@ footer{
   background-image: url(../images/footer-bg.png);
   .footer-top{
     padding-bottom: 60px;
+    h4{
+      margin-bottom: 20px;
+    }
   }
   .footer-bottom{
     padding-top: 60px;
