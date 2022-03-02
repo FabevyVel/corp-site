@@ -548,6 +548,12 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  &.dark{
+    background-color: #000;
+    .section-header p{
+      color: #fff;
+    }
+  }
 }
 
 .section-header {
@@ -687,7 +693,7 @@ section {
 --------------------------------------------------------------*/
 .clients{
   .client{
-    border: solid 1px #000;
+    border: solid 1px #1d1d1d;
     padding: 30px 20px;
     text-align: center;
     margin: -1px -1px 0 0;
@@ -716,10 +722,21 @@ section {
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
-}
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
+  .member-img {
+    position: relative;
+    overflow: hidden;
+    img {
+      filter: grayscale(0.9);
+      transition: all 0.2s;
+    }
+  }
+  &:hover{
+    .member-img {
+      img {
+        filter: grayscale(0);
+      }
+    }
+  }
 }
 .team .member .member-img:after {
   position: absolute;
