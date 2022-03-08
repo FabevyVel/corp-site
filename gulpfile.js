@@ -19,6 +19,7 @@ gulp.task('clean', function() {
 // Copy third party libraries from node_modules into /vendor
 gulp.task('vendor:js', function() {
   return gulp.src([
+    './node_modules/jquery/dist/jquery.js',
     './node_modules/bootstrap/dist/js/*',
     './node_modules/@popperjs/core/dist/umd/popper.*'
   ])
